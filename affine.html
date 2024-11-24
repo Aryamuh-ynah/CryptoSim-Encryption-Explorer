@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affine Cipher</title>
+  <link rel="stylesheet" href="s.css">
+</head>
+<body>
+  <header>
+    <h1>Affine Cipher</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="caesar.html">Caesar Cipher</a></li>
+            <li><a href="vigenere.html">Vigenère Cipher</a></li>
+
+            <li><a href="rail.html">Rail Fence Cipher</a></li>
+            <li><a href="atbash.html">Atbash Cipher</a></li>
+            <li><a href="playfair.html">Playfair Cipher</a></li>
+            <li><a href="transposition.html">Transposition Cipher</a></li>
+            <li><a href="affine.html">Affine Cipher</a></li>
+          </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Encrypt and Decrypt using Affine Cipher</h2>
+      <label for="plaintext">Input Text:</label>
+      <input type="text" id="plaintext" placeholder="Enter your text">
+      <br>
+      <label for="aKey">Multiplicative Key (A):</label>
+      <input type="number" id="aKey" placeholder="Enter A (1-25)">
+      <br>
+      <label for="bKey">Additive Key (B):</label>
+      <input type="number" id="bKey" placeholder="Enter B (0-25)">
+      <br>
+      <button onclick="processAffine(true)">Encrypt</button>
+      <button onclick="processAffine(false)">Decrypt</button>
+      <h3>Output:</h3>
+      <p id="output"></p>
+    </section>
+    <section style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="flex: 1; margin-right: 20px;">
+        <h2>Affine Cipher</h2>
+        <p>The Affine Cipher uses a mathematical function (ax + b) mod m to encrypt letters. The multiplicative key 'a' must be coprime with the alphabet size (26 for English), and the additive key 'b' can be any number.</p>
+      </div>
+      
+      <div style="flex: 1; padding: 20px; background-color: #f4f4f4; border-radius: 8px;">
+        <h3>Example:</h3>
+        <p><strong>Plaintext:</strong> HELLO</p>
+        <p><strong>Multiplicative key (a) = 5</strong>, <strong>Additive key (b) = 8</strong></p>
+        <p><strong>Ciphertext:</strong> RCLLA</p>
+        <p><em>Explanation:</em> Using the Affine Cipher formula, each letter is encrypted by applying the formula (5 * x + 8) mod 26.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 CryptoSim. All rights reserved.</p>
+  </footer>
+  <script>
+    function processAffine(encrypt) {
+      const text = document.getElementById('plaintext').value;
+      const a = parseInt(document.getElementById('aKey').value, 10);
+      const b = parseInt(document.getElementById('bKey').value, 10);
+      const output = encrypt ? affineEncrypt(text, a, b) : affineDecrypt(text, a, b);
+      document.getElementById('output').innerText = output;
+    }
+  </script>
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atbash Cipher</title>
+  <link rel="stylesheet" href="s.css">
+</head>
+<body>
+  <header>
+    <h1>Atbash Cipher</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="caesar.html">Caesar Cipher</a></li>
+            <li><a href="vigenere.html">Vigenère Cipher</a></li>
+
+            <li><a href="rail.html">Rail Fence Cipher</a></li>
+            <li><a href="atbash.html">Atbash Cipher</a></li>
+            <li><a href="playfair.html">Playfair Cipher</a></li>
+            <li><a href="transposition.html">Transposition Cipher</a></li>
+            <li><a href="affine.html">Affine Cipher</a></li>
+          </ul>
+    </nav>
+  </header>
+  <main>
+    
+    <section>
+      <h2>Encrypt and Decrypt using Atbash Cipher</h2>
+      <label for="inputText">Input Text:</label>
+      <input type="text" id="inputText" placeholder="Enter your text">
+      <br>
+      <button onclick="processAtbash()">Process</button>
+      <h3>Output:</h3>
+      <p id="output"></p>
+    </section>
+    <section style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="flex: 1; margin-right: 20px;">
+        <h2>Atbash Cipher</h2>
+        <p>The Atbash Cipher is a simple substitution cipher where the alphabet is reversed. A becomes Z, B becomes Y, and so on. It’s a special case of the Caesar Cipher with a shift of 13 (for the English alphabet).</p>
+      </div>
+      
+      <div style="flex: 1; padding: 20px; background-color: #f4f4f4; border-radius: 8px;">
+        <h3>Example:</h3>
+        <p><strong>Plaintext:</strong> HELLO</p>
+        <p><strong>Atbash Cipher:</strong> SVOOL</p>
+        <p><em>Explanation:</em> Each letter in the plaintext is mapped to its reverse counterpart in the alphabet: H -> S, E -> V, L -> O, and O -> L.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 CryptoSim. All rights reserved.</p>
+  </footer>
+  <script>
+    function processAtbash() {
+      const text = document.getElementById('inputText').value;
+      const output = atbashCipher(text);
+      document.getElementById('output').innerText = output;
+    }
+  </script>
+  <script src="scripts.js"></script>
+</body>
+</html>

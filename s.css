@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav{
+    margin-top: 10px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h2 {
+    text-align: center;
+    color: #444;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h3 {
+    margin-top: 2rem;
+    color: #444;
+  }
+  
+  p {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    word-wrap: break-word;
+  }
+
+/* Basic button styling */
+.cipher-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    margin: 10px; /* Space between buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hover effect for the button */
+  .cipher-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Remove list style */
+  ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0;
+  }
+  
+  /* Center buttons horizontally */
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Align buttons neatly */
+  li {
+    display: inline-block;
+  }
+  
+  
+  /* Footer Styles */
+  footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    main {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
