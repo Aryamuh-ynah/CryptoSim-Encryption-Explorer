@@ -1,14 +1,14 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #dec8fd;
     color: #333;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #282c34;
+    background-color: #2e1a78;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -68,7 +68,7 @@ body {
   
   button {
     display: inline-block;
-    background-color: #007BFF;
+    background-color: #165BAA;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -79,7 +79,7 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #2e1a78;
   }
   
   h3 {
@@ -97,8 +97,8 @@ body {
 
 /* Basic button styling */
 .cipher-button {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
+    background-color: #F765A3; /* Green background */
+    color: rgb(0, 0, 0); /* White text */
     padding: 10px 20px; /* Padding around the text */
     margin: 10px; /* Space between buttons */
     border: none; /* Remove default border */
@@ -110,7 +110,7 @@ body {
   
   /* Hover effect for the button */
   .cipher-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #ff446b; /* Darker green on hover */
   }
   
   /* Remove list style */
@@ -134,7 +134,7 @@ body {
   
   /* Footer Styles */
   footer {
-    background-color: #282c34;
+    background-color: #2e1a78;
     color: white;
     text-align: center;
     padding: 1rem;
