@@ -32,7 +32,7 @@ This project is especially suitable for:
 You can add screenshots, diagrams, or animated GIFs to visually explain the workflow.
 
 ```md
-![Homepage](images/S1.png)
-![Caesar Cipher Demo](images/S2.png)
-![Vigenere Cipher Demo](images/S3.png)
+![Homepage](./images/S1.png)
+![Caesar Cipher Demo](./images/S2.png)
+![Vigenere Cipher Demo](./images/S3.png)
 ```
