@@ -31,7 +31,6 @@ This project is especially suitable for:
 
 ### 🏠 Home Page (Cipher Navigation)
 
-```md
 ![Homepage](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S1.png)
 
 The landing page provides quick navigation to all supported cipher modules. Users can explore different classical encryption techniques from a single hub.
@@ -58,4 +57,3 @@ The Vigenère Cipher page demonstrates polyalphabetic encryption using a keyword
 - Provide input text and keyword
 - Encrypt or decrypt instantly
 - View output results and example guidance
-```
