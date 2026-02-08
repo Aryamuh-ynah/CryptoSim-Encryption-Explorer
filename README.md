@@ -1,59 +1,168 @@
 # 🔐 CryptoSim – Encryption Explorer
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
+CryptoSim is an interactive, browser-based web application for **learning, experimenting with, and analyzing classical cryptographic algorithms**.  
+The project is fully client-side, lightweight, and designed with a modern UI/UX, making it ideal for **education, demonstrations, and portfolio use**.
 
 ---
 
-## 📘 Overview
+## 🌐 Live Demo
 
-**CryptoSim – Encryption Explorer** is an interactive, browser-based educational project that demonstrates how **classical cryptographic encryption techniques** work.
-
-The goal of this project is to help users:
-
-- Understand encryption fundamentals
-- Learn how classical ciphers transform plaintext into ciphertext
-- Experiment with encryption and decryption in real time
-
-This project is especially suitable for:
-
-- Cryptography beginners
-- Cybersecurity students
-- Academic demonstrations
-- College / university mini-projects
+https://your-username.github.io/your-repo-name/
 
 ---
 
-## 🎥 Project Screenshots
+## 📌 Features
 
-### 🏠 Home Page (Cipher Navigation)
+### 🔒 Classical Encryption Algorithms
 
-![Homepage](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S1.png)
+- Caesar Cipher
+- Vigenère Cipher
+- Atbash Cipher
+- Rail Fence Cipher
+- Columnar Transposition Cipher
+- Affine Cipher
+- Playfair Cipher
 
-The landing page provides quick navigation to all supported cipher modules. Users can explore different classical encryption techniques from a single hub.
+Each cipher supports:
 
----
-
-### 🚆 Rail Fence Cipher (Encrypt/Decrypt Module)
-
-![Caesar Cipher Demo](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S2.png)
-
-This module allows users to encrypt and decrypt text using the Rail Fence (zig-zag) transposition technique. It includes:
-
-- Input field for plaintext/ciphertext
-- Rail count parameter
-- Instant output generation
-- Example panel for better understanding
+- Encryption & Decryption
+- Input validation
+- Copy output functionality
+- Clean, reusable UI components
 
 ---
 
-![Vigenere Cipher Demo](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S3.png)
+### ⚖️ Compare Mode
 
-The Vigenère Cipher page demonstrates polyalphabetic encryption using a keyword/key. Users can:
+- Run multiple ciphers on the same input
+- View outputs side-by-side
+- Filter and select specific ciphers
+- Copy individual outputs or all results at once
+- Execution time (ms) shown for each cipher
 
-- Provide input text and keyword
-- Encrypt or decrypt instantly
-- View output results and example guidance
+---
+
+### 🧪 Cryptanalysis Tools
+
+**Caesar Cipher Brute Force Attack**
+
+- Automatically tests all 26 shifts
+- Ranks results using English-likelihood scoring
+- Helps demonstrate basic cryptanalysis techniques
+
+**Frequency Analysis**
+
+- Letter frequency analysis (A–Z)
+- Bar chart visualization using Canvas
+- Frequency table with counts and percentages
+
+---
+
+### 🎨 UI / UX
+
+- Modern dashboard-style home page
+- Card-based layout with hover effects
+- Responsive design (mobile & desktop)
+- Dark / Light mode with animated icon toggle 🌙☀️
+- Theme preference saved using `localStorage`
+- Active navigation highlighting
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (CSS Variables, Flexbox, Grid)
+- Vanilla JavaScript (ES Modules)
+- Canvas API (for charts)
+- GitHub Pages (deployment)
+
+✔ No backend  
+✔ No frameworks  
+✔ No external libraries
+
+---
+
+## 📁 Project Structure
+
+CryptoSim/
+├── index.html
+├── css/
+│ └── style.css
+├── js/
+│ ├── app.js
+│ ├── router.js
+│ ├── theme.js
+│ ├── navActive.js
+│ ├── components/
+│ │ └── cipherUI.js
+│ ├── ciphers/
+│ │ ├── caesar.js
+│ │ ├── vigenere.js
+│ │ ├── atbash.js
+│ │ ├── railFence.js
+│ │ ├── affine.js
+│ │ ├── transposition.js
+│ │ └── playfair.js
+│ └── views/
+│ ├── home.js
+│ ├── compareView.js
+│ ├── caesarAttackView.js
+│ └── frequencyView.js
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```md
+git clone https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer.git
+```
+
+### Open the Project
+
+```md
+cd CryptoSim-Encryption-Explorer
+```
+
+### Run Locally
+
+- Open `index.html` directly in your browser
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Understanding of classical cryptography
+- JavaScript SPA routing and modular architecture
+- Client-side cryptanalysis concepts
+- UI/UX design principles
+- Clean, maintainable front-end code
+
+---
+
+## 📌 Future Improvements
+
+- Rail Fence visualization animation
+- Frequency comparison (plaintext vs ciphertext)
+- Step-by-step cipher explanations
+- Export results (TXT / PDF)
+- Accessibility improvements (ARIA, keyboard support)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Your Name**  
+GitHub: https://github.com/Aryamuh-ynah  
+LinkedIn: https://www.linkedin.com/in/humayra-afia-hany-888baa25a

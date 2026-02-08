@@ -1,51 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CryptoSim: Encryption Explorer</title>
-  <link rel="stylesheet" href="s.css">
-</head>
-<body>
-  <header>
-    <h1>CryptoSim: Encryption Explorer</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="caesar.html">Caesar Cipher</a></li>
-        <li><a href="vigenere.html">Vigenère Cipher</a></li>
-        <li><a href="rail.html">Rail Fence Cipher</a></li>
-        <li><a href="atbash.html">Atbash Cipher</a></li>
-        <li><a href="playfair.html">Playfair Cipher</a></li>
-        <li><a href="transposition.html">Transposition Cipher</a></li>
-        <li><a href="affine.html">Affine Cipher</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-        <h2>Explore the World of Ciphers!</h2>
-        <p>Welcome to CryptoSim, where you can learn and experiment with different classical encryption algorithms. Try encrypting and decrypting messages using Atbash, Rail Fence, Transposition, and other ciphers.</p>
-        <p>Get started by choosing a cipher from the navigation below and begin your encryption journey!</p>
-      </section>
-      <section>
-        <ul>
-          <li><button class="cipher-button" onclick="window.location.href='index.html'">Home</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='caesar.html'">Caesar Cipher</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='vigenere.html'">Vigenère Cipher</button></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CryptoSim: Encryption Explorer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CryptoSim: Encryption Explorer</h1>
+      <nav class="nav">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#compare" data-route="compare">Compare</a>
+        <a href="#caesar" data-route="caesar">Caesar</a>
+        <a href="#vigenere" data-route="vigenere">Vigenère</a>
+        <a href="#railfence" data-route="railfence">Rail Fence</a>
+        <a href="#atbash" data-route="atbash">Atbash</a>
+        <a href="#playfair" data-route="playfair">Playfair</a>
+        <a href="#transposition" data-route="transposition">Transposition</a>
+        <a href="#affine" data-route="affine">Affine</a>
+        <a href="#attack-caesar" data-route="attack-caesar">Caesar Attack</a>
+        <a href="#frequency" data-route="frequency">Frequency</a>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+          <span class="icon sun">☀️</span>
+          <span class="icon moon">🌙</span>
+        </button>
+      </nav>
+    </header>
 
-          <li><button class="cipher-button" onclick="window.location.href='rail.html'">Rail Fence Cipher</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='atbash.html'">Atbash Cipher</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='playfair.html'">Playfair Cipher</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='transposition.html'">Transposition Cipher</button></li>
-          <li><button class="cipher-button" onclick="window.location.href='affine.html'">Affine Cipher</button></li>
-        </ul>
-        
-      </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 CryptoSim. All rights reserved.</p>
-  </footer>
-  <script src="scripts.js"></script>
-</body>
+    <!-- SPA mount point: JS will render pages here -->
+    <main id="app"></main>
+
+    <footer>
+      <p>&copy; 2026 CryptoSim. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
 </html>
