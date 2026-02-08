@@ -106,10 +106,13 @@ CryptoSim/
 │ │ ├── transposition.js
 │ │ └── playfair.js
 │ └── views/
-│ ├── home.js
-│ ├── compareView.js
-│ ├── caesarAttackView.js
-│ └── frequencyView.js
+│   ├── home.js
+│   ├── compareView.js
+│   ├── caesarAttackView.js
+│   ├── affineView.js
+│   ├── playfairView.js
+│   ├── vigenereView.js
+│   └── frequencyView.js
 └── README.md
 ```
 
