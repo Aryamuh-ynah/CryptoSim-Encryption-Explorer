@@ -27,12 +27,35 @@ This project is especially suitable for:
 
 ---
 
-## 🎥 Project Preview
+## 🎥 Project Screenshots
 
-You can add screenshots, diagrams, or animated GIFs to visually explain the workflow.
+### 🏠 Home Page (Cipher Navigation)
 
 ```md
-![Homepage](./images/S1.png)
-![Caesar Cipher Demo](./images/S2.png)
-![Vigenere Cipher Demo](./images/S3.png)
+![Homepage](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S1.png)
+
+The landing page provides quick navigation to all supported cipher modules. Users can explore different classical encryption techniques from a single hub.
+
+---
+
+### 🚆 Rail Fence Cipher (Encrypt/Decrypt Module)
+
+![Caesar Cipher Demo](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S2.png)
+
+This module allows users to encrypt and decrypt text using the Rail Fence (zig-zag) transposition technique. It includes:
+
+- Input field for plaintext/ciphertext
+- Rail count parameter
+- Instant output generation
+- Example panel for better understanding
+
+---
+
+![Vigenere Cipher Demo](https://github.com/Aryamuh-ynah/CryptoSim-Encryption-Explorer/blob/main/images/S3.png)
+
+The Vigenère Cipher page demonstrates polyalphabetic encryption using a keyword/key. Users can:
+
+- Provide input text and keyword
+- Encrypt or decrypt instantly
+- View output results and example guidance
 ```
