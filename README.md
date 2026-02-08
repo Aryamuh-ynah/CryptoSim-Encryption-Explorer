@@ -7,7 +7,7 @@ The project is fully client-side, lightweight, and designed with a modern UI/UX,
 
 ## 🌐 Live Demo
 
-https://your-username.github.io/your-repo-name/
+https://https://aryamuh-ynah.github.io/CryptoSim-Encryption-Explorer/index.html
 
 ---
 
@@ -85,6 +85,7 @@ Each cipher supports:
 
 ## 📁 Project Structure
 
+```md
 CryptoSim/
 ├── index.html
 ├── css/
@@ -110,6 +111,7 @@ CryptoSim/
 │ ├── caesarAttackView.js
 │ └── frequencyView.js
 └── README.md
+```
 
 ---
 
@@ -163,6 +165,6 @@ This project is licensed under the **MIT License**.
 
 ## 👤 Author
 
-**Your Name**  
+**Humayra Afia**  
 GitHub: https://github.com/Aryamuh-ynah  
 LinkedIn: https://www.linkedin.com/in/humayra-afia-hany-888baa25a
