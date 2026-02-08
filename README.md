@@ -1,15 +1,35 @@
 # 🔐 CryptoSim – Encryption Explorer
 
-CryptoSim – Encryption Explorer is a web-based educational project designed to help users understand and experiment with **classical cryptographic encryption techniques**.  
-The project provides an interactive and beginner-friendly interface where users can encrypt and decrypt messages using different cipher algorithms and immediately see the results.
-
-This tool is especially useful for **students, beginners in cryptography, and cybersecurity enthusiasts** who want hands-on experience with encryption concepts.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## 📸 Project Screenshots & Demo
+## 📘 Overview
 
-You can add screenshots, diagrams, or animated GIFs here to visually demonstrate the project.
+**CryptoSim – Encryption Explorer** is an interactive, browser-based educational project that demonstrates how **classical cryptographic encryption techniques** work.
+
+The goal of this project is to help users:
+
+- Understand encryption fundamentals
+- Learn how classical ciphers transform plaintext into ciphertext
+- Experiment with encryption and decryption in real time
+
+This project is especially suitable for:
+
+- Cryptography beginners
+- Cybersecurity students
+- Academic demonstrations
+- College / university mini-projects
+
+---
+
+## 🎥 Project Preview
+
+You can add screenshots, diagrams, or animated GIFs to visually explain the workflow.
 
 ```md
 ![Homepage](images/S1.png)
