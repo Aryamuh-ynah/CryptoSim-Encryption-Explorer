@@ -165,6 +165,6 @@ This project is licensed under the **MIT License**.
 
 ## 👤 Author
 
-**Humayra Afia**  
-GitHub: https://github.com/Aryamuh-ynah  
-LinkedIn: https://www.linkedin.com/in/humayra-afia-hany-888baa25a
+**Humayra Afia Hany**  
+🔗 GitHub: [https://github.com/Aryamuh-ynah](Aryamuh-ynah)  
+🔗 LinkedIn: [https://www.linkedin.com/in/humayra-afia-hany-888baa25a](Humayra Afia)
