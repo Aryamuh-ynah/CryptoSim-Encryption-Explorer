@@ -7,7 +7,7 @@ The project is fully client-side, lightweight, and designed with a modern UI/UX,
 
 ## 🌐 Live Demo
 
-https://https://aryamuh-ynah.github.io/CryptoSim-Encryption-Explorer/index.html
+[aryamuh-ynah.github.io/CryptoSim-Encryption-Explorer](https://aryamuh-ynah.github.io/CryptoSim-Encryption-Explorer/index.html)
 
 ---
 
